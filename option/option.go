@@ -7,7 +7,7 @@ import "errors"
 // List of errors
 var ErrFailedUnwrap = errors.New("failed unwrap")
 
-// Optional is an enum, which can assume the value of None or Some(x)
+// Optional is a container struct, which can assume the value of None or Some(x)
 type Optional[T any] struct {
 	content any
 }
